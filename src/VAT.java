@@ -11,7 +11,6 @@ public class VAT extends Applet {
     Button button;
 
     public void init() {
-        this.setSize(new Dimension(400,200));
         Text = new TextField("",20);
         label = new Label("Bedrag exc. BTW:");
         button = new Button("Ok");

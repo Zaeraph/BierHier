@@ -8,15 +8,13 @@ public class Calculator extends Applet {
     TextField Text2;
     Double Number1;
     Double Number2;
-    String Antwoord;
+    String Answer;
     Button ButtonTimes;
     Button ButtonFracture;
     Button ButtonPlus;
     Button ButtonMinus;
 
     public void init() {
-        Text1 = new TextField("",15);
-        Text2 = new TextField("",15);
         ButtonTimes = new Button("*");
         ButtonTimes.addActionListener( new ButtonListenerTimes());
         ButtonFracture = new Button("/");
@@ -25,12 +23,16 @@ public class Calculator extends Applet {
         ButtonPlus.addActionListener( new ButtonListenerPlus());
         ButtonMinus = new Button("-");
         ButtonMinus.addActionListener( new ButtonListenerMinus());
-        add(Text1);
-        add(Text2);
+        Text1 = new TextField("",15);
+        Text2 = new TextField("",15);
+
         add(ButtonTimes);
         add(ButtonFracture);
         add(ButtonPlus);
         add(ButtonMinus);
+        add(Text1);
+        add(Text2);
+
     }
 
     public void paint(Graphics g) {
@@ -40,8 +42,8 @@ public class Calculator extends Applet {
         public void actionPerformed(ActionEvent e) {
             Number1 = Double.parseDouble(Text1.getText());
             Number2 = Double.parseDouble(Text2.getText());
-            Antwoord = String.valueOf(Number1 * Number2);
-            Text1.setText(Antwoord);
+            Answer = String.valueOf(Number1 * Number2);
+            Text1.setText(Answer);
             Text2.setText("");
         }
     }
@@ -50,8 +52,8 @@ public class Calculator extends Applet {
         public void actionPerformed(ActionEvent e) {
             Number1 = Double.parseDouble(Text1.getText());
             Number2 = Double.parseDouble(Text2.getText());
-            Antwoord = String.valueOf(Number1 / Number2);
-            Text1.setText(Antwoord);
+            Answer = String.valueOf(Number1 / Number2);
+            Text1.setText(Answer);
             Text2.setText("");
         }
     }
@@ -60,8 +62,8 @@ public class Calculator extends Applet {
         public void actionPerformed(ActionEvent e) {
             Number1 = Double.parseDouble(Text1.getText());
             Number2 = Double.parseDouble(Text2.getText());
-            Antwoord = String.valueOf(Number1 + Number2);
-            Text1.setText(Antwoord);
+            Answer = String.valueOf(Number1 + Number2);
+            Text1.setText(Answer);
             Text2.setText("");
         }
     }
@@ -70,8 +72,8 @@ public class Calculator extends Applet {
         public void actionPerformed(ActionEvent e) {
             Number1 = Double.parseDouble(Text1.getText());
             Number2 = Double.parseDouble(Text2.getText());
-            Antwoord = String.valueOf(Number1 - Number2);
-            Text1.setText(Antwoord);
+            Answer = String.valueOf(Number1 - Number2);
+            Text1.setText(Answer);
             Text2.setText("");
         }
     }
