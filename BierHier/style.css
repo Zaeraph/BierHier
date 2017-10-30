@@ -1,0 +1,194 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    width: 100%;
+    background: #6fa8dc;
+    height: 5vw;
+}
+
+.main {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    background: #999999;
+    height: 12vw;
+    color: #FFF;
+    display: inline-block;
+}
+
+.footer a {
+    color: #FFF;
+}
+
+.header li {
+    list-style-type: none;
+    float: left;
+    padding: 35px;
+}
+
+.header li a:hover {
+    color: #186ebd;
+}
+
+.header li a {
+    color: #073763;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+ul.menu {
+    margin: 0px 0px 0px 35px;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+td {
+    padding: 10px 40px 40px 40px;
+    vertical-align: top;
+}
+
+th {
+    padding: 0px 40px 0px 40px;
+}
+
+img.nieuws_image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+ul.sitelinks a {
+    text-decoration: none;
+}
+
+ul.sitelinks {
+    list-style: none;
+    padding: 45px 0px 0px 45px;
+    margin: 0px 0px 0px 67px;
+    width: 300px;
+    float: left;
+}
+
+img.footer_image {
+    width: 155px;
+    height: auto;
+    padding: 45px 0px 0px 45px;
+    float: right;
+    margin-right: 105px;
+}
+
+p.copyright_p {
+    margin: auto;
+    width: 300px;
+}
+
+.mainfoto img {
+    width: 40%;
+    margin: 5%;
+    float: left;
+    height: 436px;
+}
+
+.agendaconcerten {
+    margin: 5%;
+    float: right;
+}
+
+.agendaconcerten {
+    float: right;
+    margin-top: 5%;
+    margin-right: 6%;
+    background: rgb(111, 168, 220);
+    color: #fff;
+    padding: 1.8%;
+    border-radius: 1%;
+    width: 35%;
+}
+
+.agendaconcerten a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.concertenfotoblok1 {
+    display: inline-block;
+}
+
+
+.agendaconcertentxt p {
+    margin-left: 62%;
+    margin-top: 4%;
+    margin-bottom: -4%;
+}
+
+.agendaconcertentxt h1 {
+    margin-left: 63%;
+}
+
+.concertenfotoblok1 img {
+    width: 15%;
+    padding: 1.8%;
+    float: left;
+    margin: 0%;
+    height: 225px;
+}
+
+.concertenfotoblok1 h1 {
+    float: left;
+    padding: 5%;
+}
+
+
+
+.concert1blok img {
+    width: 25%;
+    height: 310px;
+    padding: 4%;
+}
+
+
+.concertimg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.concert1blok h2 {
+    margin-top: 5%;
+}
+
+.concertblok1 img {
+    width: 450px;
+    height: 320px;
+}
+
+td.concerttxt1 {
+    padding-left: 2px;
+    padding-right: 1px;
+}
+
+.concertvideo iframe {
+    margin-top: 1%;
+}
+
+.Googlemaps iframe {
+    width: 70% !important;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.adresgegevens {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
