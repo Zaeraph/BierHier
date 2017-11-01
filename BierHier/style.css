@@ -2,22 +2,45 @@ body {
     margin: 0px;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Saira');
+
+
+
+
 .header {
     width: 100%;
-    background: #6fa8dc;
     height: 5vw;
+    background: #ffb76b;
+    background: -moz-linear-gradient(top, #ffb76b 0%, #ff8114 65%, #ff8411 65%, #ff7c00 76%, #ff7c00 91%, #ff7f04 100%);
+    background: -webkit-linear-gradient(top, #ffb76b 0%,#ff8114 65%,#ff8411 65%,#ff7c00 76%,#ff7c00 91%,#ff7f04 100%);
+    background: linear-gradient(to bottom, #ffb76b 0%,#ff8114 65%,#ff8411 65%,#ff7c00 76%,#ff7c00 91%,#ff7f04 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 );
+
+
 }
 
 .main {
     width: 100%;
+    background: rgba(253, 253, 254, 0.94);
+    background-image: url(./img/background-3.jpg);
+    background-blend-mode: overlay;
 }
+
+
 
 .footer {
     width: 100%;
-    background: #999999;
     height: 12vw;
     color: #FFF;
     display: inline-block;
+    background: #ffb76b;
+    background: -moz-linear-gradient(top, #ffb76b 0%, #ff8114 65%, #ff8411 65%, #ff7c00 76%, #ff7c00 91%, #ff7f04 100%);
+    background: -webkit-linear-gradient(top, #ffb76b 0%,#ff8114 65%,#ff8411 65%,#ff7c00 76%,#ff7c00 91%,#ff7f04 100%);
+    background: linear-gradient(to bottom, #ffb76b 0%,#ff8114 65%,#ff8411 65%,#ff7c00 76%,#ff7c00 91%,#ff7f04 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 );
+
+
 }
 
 .footer a {
@@ -31,13 +54,13 @@ body {
 }
 
 .header li a:hover {
-    color: #186ebd;
+    color: #ffe5cb;
 }
 
 .header li a {
-    color: #073763;
+    color: #FFFFFF;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Saira', sans-serif;
     font-weight: 600;
     font-size: 30px;
 }
@@ -47,7 +70,7 @@ ul.menu {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Saira', sans-serif;
     font-size: 20px;
 }
 
@@ -64,6 +87,7 @@ img.nieuws_image {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
+    height: 400px;
 }
 
 ul.sitelinks a {
@@ -95,7 +119,7 @@ p.copyright_p {
     width: 40%;
     margin: 5%;
     float: left;
-    height: 436px;
+    height: 443px;
 }
 
 .agendaconcerten {
@@ -107,11 +131,12 @@ p.copyright_p {
     float: right;
     margin-top: 5%;
     margin-right: 6%;
-    background: rgb(111, 168, 220);
+    background: rgb(255, 171, 88);
     color: #fff;
     padding: 1.8%;
     border-radius: 1%;
     width: 35%;
+    height: 375px
 }
 
 .agendaconcerten a {
@@ -190,5 +215,47 @@ td.concerttxt1 {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
+    margin-top: 2%;
 }
 
+form#contact_form {
+    width: 100%;
+}
+
+input#submit_button {
+    padding: 5%;
+    margin: 1%;
+    background: #ffa44d;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight:600;
+}
+
+form#contact_form .row {
+    padding: 1%;
+}
+
+input#name {
+    width: 100%;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+input#email {
+    width: 100%;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+input#telefoon {
+    width: 100%;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+textarea#message {
+    width: 100%;
+    border-radius: 5px;
+    background: #ffffff;
+}
