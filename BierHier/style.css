@@ -259,3 +259,65 @@ textarea#message {
     border-radius: 5px;
     background: #ffffff;
 }
+
+.div_33 {
+    width: 45%;
+    float: left;
+}
+
+.div_66 {
+    width: 55%;
+    float: left;
+}
+
+.main_inner {
+    padding: 20px 70px 70px 70px;
+}
+
+img.sport_grid_img {
+    width: 30%;
+    padding: 1%;
+}
+
+.sport_page_img {
+    width: 100%;
+    height: 430px;
+}
+
+img.sport_stad_img {
+    width: 95%;
+    height: 430px;
+    margin: auto;
+    display: block;
+}
+
+.div_100 {
+    clear: both;
+}
+
+.div_100_30 {
+    float: left;
+    width: 24%;
+    padding-right: 0.96%;
+}
+
+img.sport_div_img {
+    width: 90%;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: -20px;
+}
+
+h2.tussenstand_h2 {
+    margin: 0px;
+    position: relative;
+    top: -35px;
+}
+
+.div_100 {
+    clear: both;
+    margin-top: 30px;
+    display: inline-block;
+    width: 100%;
+}
